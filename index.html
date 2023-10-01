@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Login</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="style.css">
+  <title>FB Clone</title>
 </head>
+
 <body>
-
-  <article id="login-card" class="container">
-    <a href="posts.html" role="button">Login</a>
-  </article>
-
+  <div class="box" id="signin-page-logo">
+    <div class="is-size-3">FB Clone - Click on Sign In</div>
+  </div>
+  <div id="signin-page">
+    <div id="signin-left-container"></div>
+    <div id="signin-container" class="box">
+      <input id="username-input" class="input" type="text" placeholder="username" value="John Doe">
+      <input id="password-input" class="input" type="password" placeholder="password" value="password">
+      <button id="signin-button" class="button is-primary">
+        <a href="posts.html" id="signin-link-button">Sign In</a>
+      </button>
+    </div>
+    <div id="signin-right-container"></div>
+  </div>
 </body>
+
 </html>
